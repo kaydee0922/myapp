@@ -1,0 +1,66 @@
+import { StyleSheet } from "react-native";
+export default StyleSheet.create({
+  box: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  boxSecond: {
+    flex: 1,
+    backgroundColor: "#fff",
+  },
+  modalBox: {
+    backgroundColor: "#fff",
+    alignSelf: "center",
+    width: "100%",
+  },
+  container: {
+    flex: 1,
+    width: "100%",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#ceede7",
+    paddingVertical: 30,
+  },
+  headerLabel: {
+    fontSize: 30,
+    fontWeight: "700",
+    color: "#059df5",
+    textShadowColor: "#d487f5",
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 10,
+  },
+  contentBox: {
+    width: "95%",
+    height: 200,
+    borderWidth: 0.5,
+    borderRadius: 20,
+    overflow: "hidden",
+  },
+  buttonStyle: {
+    width: "40%",
+    height: 35,
+    backgroundColor: "#268ef0",
+    borderWidth: 1,
+    borderRadius: 50,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  modalView: {
+    marginTop: 150,
+    width: "100%",
+    height: "80%",
+    backgroundColor: "#fff",
+    borderRadius: 20,
+    padding: 35,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 30,
+  },
+});
